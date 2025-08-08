@@ -68,3 +68,15 @@ Documentation for command line arguments is available:
  - `man scrcpy`
  - `scrcpy --help`
  - on [github](/README.md)
+
+## Graphical interface
+
+A simple graphical wrapper is provided in [`gui/scrcpy_gui.py`](../gui/scrcpy_gui.py).
+Run it with:
+
+```bash
+python3 gui/scrcpy_gui.py
+```
+
+It parses the `scrcpy` manpage to expose every command‑line option as a
+checkbox or input field.
